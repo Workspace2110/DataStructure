@@ -1,0 +1,19 @@
+ADT Rational:
+  objects:
+    numberator(Min_Double~Max_Double)
+    denominator(Min_Double~Max_Double && !=0)
+  functions:
+    Zore():Rational
+    IsZero(Rational x):Boolean
+    Add(Rational x):Rational
+    Subtract(Rational x):Rational
+    Multiply(Rational x):Rational
+    Divide(Rational x):Rational
+    IsEqual(Rational x):Boolean
+    IsGreater(Rational x):Boolean
+    IsLess(Rational x):Boolean
+    intValue():int
+    doubleValue():double
+    ToString():string
+
+end NaturalNumber
